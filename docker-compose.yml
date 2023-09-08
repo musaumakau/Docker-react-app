@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
     app:
-        container_name: Docker-react-c
-        image: Docker-react-i
+        container_name: docker-react-c
+        image: docker-react-i
         build:
             context: .
         ports: 
